@@ -1,0 +1,138 @@
+<meta charset="utf-8">
+
+	body
+    {
+      background-color: #DADADA;
+      width: 100%;
+    }
+    .underTable
+    {
+      width: 750px;
+      text-align: right;
+    }
+    table
+    {
+      border: 1px solid black;
+      width: 750px;
+    }
+    th
+    {
+      background-color: #000000;
+      color: #FFFFFF;
+    }
+    tr:nth-child(even) /* lignes paires */
+    {
+      background: white;
+    }
+    tr:nth-child(odd) /* lignes impaires */
+    {
+      background: silver;
+    }
+    .nombre
+    {
+      text-align: right;
+    }
+    footer
+    {
+      position: absolute;
+      bottom: 20px;
+      left: 0px;
+      width: 100%;
+      text-align: center;
+      font-style: italic;
+    }
+    .precsuiv
+    {
+      background-color: red;
+      width: 80px;
+      height: 80px;
+      color: white;
+      font-weight: 900;
+      font-size: 28px;
+    }
+    .separator
+    {
+      height: 15px;
+    }
+    p {
+		font-family: verdana;
+		font-style: oblique;
+		font-weight: 100;
+		text-align: center;
+	}
+
+	body{
+
+		background-color: #b0f6a0;}
+	
+		
+	}
+	h1 {
+		font-family: comic;
+		text-decoration: underline;
+		font-size: 160;
+	}	
+	
+	table {
+		position: relative;
+		table-layout: auto;
+		border: 1px solid black;
+		width: 500px;
+
+		
+		}
+		th {
+			background-color: gray;
+		}
+		td {
+			border: 1px solid black;
+		}
+.nombre {
+	text-align: right;
+}
+#nor {
+border: 1px solid black;
+		width: 300px;
+
+}		
+
+
+	h1 {
+		font-family: comic;
+		text-decoration: underline;
+		font-size: 160;
+	}
+	
+	#bas {
+		left: 150px;
+		position: absolute;
+		bottom: 10px;
+		width: 80%;
+		text-align: center;
+
+
+	}
+	a:link, a:visited {
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #98bf21;
+    width: 120px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: #7A991A;
+}
+
+	button {
+		text-align: center;
+		background-color: green;
+		border-radius: 150px;
+	}
+
+	* {
+    box-sizing: border-box;
+}

@@ -4,4 +4,5 @@
 
     echo htmlentities(strip_tags($_POST['recherche']));
     echo htmlspecialchars('<script>');
+    echo 'the End!';
 ?>
